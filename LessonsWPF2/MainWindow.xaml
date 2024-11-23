@@ -1,0 +1,45 @@
+﻿<Window x:Class="LessonsWPF2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LessonsWPF2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock Name="textblock">
+                1 вопрос: Крещение Руси когда произошло?
+            </TextBlock>
+            <RadioButton Name="Radio1" GroupName="Group1" Content="988 году"/>
+            <RadioButton Name="Radio2" GroupName="Group1" Content="987 году"/>
+            <RadioButton Name="Radio3" GroupName="Group1" Content="984 году"/>
+            <Separator/>
+            <TextBlock>
+                2 вопрос: Дата начала татаро-монгольского ига?
+            </TextBlock>
+            <RadioButton Name="Radio4" GroupName="Group2" Content="1237–1242 год"/>
+            <RadioButton Name="Radio5" GroupName="Group2" Content="1240–1245 год"/>
+            <RadioButton Name="Radio6" GroupName="Group2" Content="1235–1242 год"/>
+
+            <Separator/>
+            <TextBlock>
+                3 вопрос: 1 мировая война когда произошла?
+            </TextBlock>
+            <RadioButton Name="Radio7" GroupName="Group3" Content="28 июля 1914 — 11 ноября 1918"/>
+            <RadioButton Name="Radio8" GroupName="Group3" Content="30 июля 1915 — 11 ноября 1920"/>
+            <RadioButton Name="Radio9" GroupName="Group3" Content="28 февраль 1945 — 11 декабрь 2022"/>
+            
+            <Separator/>
+            <TextBlock>
+                4 вопрос: русско-японская война когда началась?
+            </TextBlock>
+            <RadioButton Name="Radio10" GroupName="Group4" Content="8 февраля 1904 года"/>
+            <RadioButton Name="Radio11" GroupName="Group4" Content="12 мая 1906 года"/>
+            <RadioButton Name="Radio12" GroupName="Group4" Content="1 января 1905 года"/>
+
+            <Separator/>
+            <Button Name="button21" Content="Посмотреть ответы" Click="Button21_Click" Width="160"/>
+        </StackPanel>
+    </Grid>
+</Window>
